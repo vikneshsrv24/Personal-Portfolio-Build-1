@@ -1,0 +1,68 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&family=Old+Standard+TT:wght@700&family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{                /* this is a universal selector for all html elements*/
+    margin:0%;    /* for space around all elements*/
+    padding:0%;   /*space blw content and border*/
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;  /* for smooth scrolling transition */
+}
+
+p{          /* paragraph formatting*/
+   color:rgb(85, 85, 85);
+   
+}
+
+/* TRANSITION */
+
+a, .btn {
+    transition:  300ms ease;
+}
+
+/* Desktop Navigation links */
+nav,               /* from index html for navigation */
+.nav-links{
+    display:flex;      /* dispaly prop tells how things are arranged */
+   
+}
+
+nav {                                /*contents in the nav */
+    justify-content:space-around;
+    align-items:center;
+    height: 17vh;       /* from the whole screen this takes 17% */
+}
+
+.nav-links{
+    gap: 1.5rem;          /* blw elements which are flexed */
+    list-style: none;
+    font-size:1rem;
+}
+
+a{                          /* text decoration for text/links in navbar */
+    color: black;
+    text-decoration: none;
+    text-decoration-color:white;
+}
+
+a:hover{                            /* while hovering over nav links */
+    color:grey;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+    text-decoration-color:rgb(185, 185, 185)       /* text underline space while hover */ 
+}
+
+.logo{                      /* Viknesh SRV text changes */
+    font-size: 2rem;
+}
+
+.logo:hover{                  /* hovering over logo nave viknesh SRV */
+    cursor:default ;         /* cursor will not change to text hover */
+}
