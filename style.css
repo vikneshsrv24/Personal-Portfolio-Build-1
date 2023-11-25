@@ -66,3 +66,25 @@ a:hover{                            /* while hovering over nav links */
 .logo:hover{                  /* hovering over logo nave viknesh SRV */
     cursor:default ;         /* cursor will not change to text hover */
 }
+
+
+/* logodiv */
+
+#logodiv{
+    display: none;                    /* in desktop view it wont shows up */
+}
+
+.logo{
+    position: relative;
+    display:inline-block;
+}
+
+.logomenu{
+    display: flex;                        /* from one direction to another direction arrangement of blocks usually from left to right*/
+    flex-direction: column;               /* the flex direction */
+    justify-content: space-between;       /*content justification */
+    height:24px;
+    width:30px;
+    cursor:pointer;                       /* the cursor will be turned to pointer form */
+}
+
