@@ -124,3 +124,27 @@ a:hover{                            /* while hovering over nav links */
 .menu-links open{                                           /* adding class from js */
     max-height:300px;
 }
+
+.logomenu.open span:first-child{                             /* represents the first element among a group of sibling elements. */
+    transform: rotate(45deg) translate( 10px, 5px);          /* transofrming line and rotate to a skewd postion and move them in certain direction */
+}
+
+.logomenu.open span:nth-child{                             /* represents the first element among a group of sibling elements. */
+    opacity:0;                                               /*removing the second line completely */
+}
+
+.logomenu.open span:last-child{                             /* represents the first element among a group of sibling elements. */
+    transform: rotate(-45deg) translate( 10px, -5px);          /* transofrming line and rotate to a skewd postion and move them in certain direction */
+}
+
+.logomenu.open span:first-child{
+    transform: none;
+}
+
+.logomenu.open span:first-child{
+    opacity:1;
+}
+
+.logomenu.open span:first-child{
+    transform: none;
+}
