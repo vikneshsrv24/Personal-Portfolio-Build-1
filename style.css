@@ -70,16 +70,16 @@ a:hover{                            /* while hovering over nav links */
 
 /* logodiv */
 
-#logodiv{
+#hamburger-nav{
     display: none;                    /* in desktop view it wont shows up */
 }
 
-.logo{
+.hamburger-menu{
     position: relative;
     display:inline-block;
 }
 
-.logomenu{
+.hamburger-icon{
     display: flex;                        /* from one direction to another direction arrangement of blocks usually from left to right*/
     flex-direction: column;               /* the flex direction */
     justify-content: space-between;       /*content justification */
@@ -88,7 +88,7 @@ a:hover{                            /* while hovering over nav links */
     cursor:pointer;                       /* the cursor will be turned to pointer form */
 }
 
-.logomenu span{                               /* lines of the logomenu. */
+.hamburger-icon span{                               /* lines of the hamburger   . */
     width: 100%;
     height:2px;
     background-color: black;
@@ -125,26 +125,26 @@ a:hover{                            /* while hovering over nav links */
     max-height:300px;
 }
 
-.logomenu.open span:first-child{                             /* represents the first element among a group of sibling elements. */
+.hamburger-icon.open span:first-child{                             /* represents the first element among a group of sibling elements. */
     transform: rotate(45deg) translate( 10px, 5px);          /* transofrming line and rotate to a skewd postion and move them in certain direction */
 }
 
-.logomenu.open span:nth-child{                             /* represents the first element among a group of sibling elements. */
+.hamburger-icon.open span:nth-child(2){                             /* represents the first element among a group of sibling elements. */
     opacity:0;                                               /*removing the second line completely */
 }
 
-.logomenu.open span:last-child{                             /* represents the first element among a group of sibling elements. */
+.hamburger-icon.open span:last-child{                             /* represents the first element among a group of sibling elements. */
     transform: rotate(-45deg) translate( 10px, -5px);          /* transofrming line and rotate to a skewd postion and move them in certain direction */
 }
 
-.logomenu.open span:first-child{
+.hamburger-icon span:first-child{
     transform: none;
 }
 
-.logomenu.open span:first-child{
+.hamburger-icon span:first-child{
     opacity:1;
 }
 
-.logomenu.open span:first-child{
+.hamburger-icon span:first-child{
     transform: none;
 }
