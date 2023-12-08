@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px) {                   /* when screen size reduces less than 1200px then content will not be displayed as desktop format */
+@media screen and (max-width: 600px) {                   /* when screen size reduces less than 1200px then content will not be displayed as desktop format */
     #desktop-nav{
         display: none;
     }

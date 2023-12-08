@@ -68,7 +68,7 @@ a:hover{                            /* while hovering over nav links */
 }
 
 
-/* logodiv */
+/* Hamburger nav */
 
 #hamburger-nav{
     display: none;                    /* in desktop view it wont shows up */
