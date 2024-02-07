@@ -68,7 +68,7 @@ a:hover{                            /* while hovering over nav links */
 }
 
 
-/* Hamburger nav */
+/* Hamburger nav   */
 
 #hamburger-nav{
     display: none;                    /* in desktop view it wont shows up */
@@ -100,6 +100,7 @@ a:hover{                            /* while hovering over nav links */
     top:100%;
     right:0;
     background-color: white;                             
+    width:fit-content;
     max-height:0;                                         /* The overflow property specifies whether to clip the content or to add scrollbars when the content of an element is too big to fit in the specified area */                           
     overflow:hidden;                                   /* The overflow is clipped, and the rest of the content will be invisible */
     transition: all 0.3 ease-in-out;
@@ -121,7 +122,7 @@ a:hover{                            /* while hovering over nav links */
      list-style: none;                                         /* Sets all the properties for a list in one declaration */
 }
 
-.menu-links open{                                           /* adding class from js */
+.menu-links.open{                                           /* adding class from js */
     max-height:300px;
 }
 
@@ -148,3 +149,7 @@ a:hover{                            /* while hovering over nav links */
 .hamburger-icon span:first-child{
     transform: none;
 }
+
+/* SECTIONS */
+
+ 
