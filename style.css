@@ -170,13 +170,13 @@ a:hover{                            /* while hovering over nav links */
     display:flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 70vh;
 }
 
 .section__pic-container{
     display:flex;
-    height:400px;
-    width:400px;
+    height:380px;
+    width:380px;
     margin:auto 0;
 }
 
@@ -194,13 +194,11 @@ a:hover{                            /* while hovering over nav links */
 }
 
 .section__text__p1 {
-    font: size 2.2rem;
-    margin-bottom: 2rem;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
 }
-
 .section__text__p2{
-    font-size: 1.5rem;
-    
+    font-size: 2.2rem;
 }
 
 .section__text__p2{
@@ -215,7 +213,7 @@ a:hover{                            /* while hovering over nav links */
 #social-container{
     display:flex;
     justify-content:center;
-    margin-top: 1rem;
+    margin-top: 2rem;
     gap:1rem;
 }
 
@@ -227,10 +225,11 @@ a:hover{                            /* while hovering over nav links */
  }
 
  /* BUTTON */
-.btn-container{
+
+ .btn-container{
     display:flex;
     justify-content: center;
-    gap:1 rem;
+    gap:5rem;
 }
 
 .btn{
